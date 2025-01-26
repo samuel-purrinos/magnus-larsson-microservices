@@ -23,6 +23,7 @@ dependencies {
     implementation project(':util')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
+	implementation 'org.springdoc:springdoc-openapi-starter-webflux-ui:2.3.0'
 }
 
 tasks.named('test') {
